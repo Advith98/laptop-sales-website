@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./img/hp.png" type="image/gif" sizes="16x16">
+    <title>Hp touch 15t</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <a href="./index.html" class="logo-a">
+          <img src="./img/hp.png" alt="logo" height="50px"/>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="./index.html">Home</a></li>
+          <li><a class="nav-link" href="./overview.html">Overview</a></li>
+          <li><a class="nav-link" href="./specs.html">Specs</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <div class="cart">
+        <a href="./cart.html">
+          <img src="./img/cart.svg" alt="cart" />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="presentation">
+        <div class="introduction">
+          <div class="intro-text">
+            <h1>Laptop for the future</h1>
+            <p>
+              The new 15 inch bezeless display oferring a 4k display with
+              lightning fast touch screen.
+            </p>
+          </div>
+          <div class="cta">
+            <button class="cta-select">15 Inch</button>
+            <button class="cta-add">Buy Now</button>
+          </div>
+        </div>
+        <div class="cover">
+          <!-- image slider -->
+
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 7</div>
+              <img src="./img/img-sliding/1.webp" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 7</div>
+              <img src="./img/img-sliding/2.webp" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 7</div>
+              <img src="./img/img-sliding/3.webp" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 7</div>
+              <img src="./img/img-sliding/4.webp" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 7</div>
+              <img src="./img/img-sliding/5.webp" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 7</div>
+              <img src="./img/img-sliding/6.webp" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">7 / 7</div>
+              <img src="./img/img-sliding/7.webp" style="width: 100%" />
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br />
+        </div>
+      </section>
+
+      <div style="text-align: center" class="dot-align">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+
+      <!-- <div class="laptop-select">
+				<img src="./img/arrow-left.svg" alt="" />
+				<img src="./img/dot.svg" alt="" />
+				<img src="./img/dot-full.svg" alt="" />
+				<img src="./img/dot-full.svg" alt="" />
+				<img src="./img/arrow-right.svg" alt="" />
+			</div> -->
+
+      <img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+      <img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+      <img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="content">Made with ❤️ by Advith TM</div>
+      <div class="footerr">
+        <div class="social">&#62220;</div>
+        <div class="social">&#62217;</div>
+        <div class="social">&#62223;</div>
+        <div class="social">&#62232;</div>
+        <div class="social">&#62235;</div>
+        <div class="social">&#62226;</div>
+        <div class="social">&#62214;</div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
