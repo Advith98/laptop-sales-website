@@ -5,8 +5,6 @@ There are 4 pages in the website
 # live website
 [Visit the live website here](https://advith98.github.io/laptop-sales-website/)
 
-<a href="https://advith98.github.io/laptop-sales-website/" target="_blank">Visit the live website here</a>
-
 # 1. Home page
 ![](Readme-img/Home%20page.jpg)
 
