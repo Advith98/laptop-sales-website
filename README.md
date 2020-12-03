@@ -3,7 +3,7 @@ A Responsive laptop Sales website Coded using only HTMl, Css and JavaScript <br/
 There are 4 pages in the website 
 
 # live website
-https://advith98.github.io/laptop-sales-website/
+[Visit the live website here](https://advith98.github.io/laptop-sales-website/)
 
 # 1. Home page
 ![](Readme-img/Home%20page.jpg)
